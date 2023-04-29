@@ -1,5 +1,38 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.edit {
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+header {
+  background-color: rgb(29, 31, 33);
+}
+
 footer {
   background-color: rgb(29, 31, 33);
+}
+
+main {
+  margin-top: 160px;
+}
+
+.card, .move {
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(202, 197, 186);
+  transform: translateY(-3%);
+}
+
+.move:hover {
+  transform: translateY(-8%);
 }
 
 /*# sourceMappingURL=style.css.map */
