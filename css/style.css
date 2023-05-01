@@ -1,3 +1,8 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -41,6 +46,23 @@ main {
   margin-top: 160px;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* iframe video documental youtube + AOS:
+<iframe data-aos="fade-up"
+ data-aos-duration="3000" width="560" height="315" 
+ src="https://www.youtube.com/embed/3wAQxJeyyXo" 
+ title="YouTube video player" frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write; 
+ encrypted-media; gyroscope; picture-in-picture; 
+ web-share" allowfullscreen></iframe> */
 .card, .move {
   transition: all 400ms ease;
 }
@@ -54,8 +76,29 @@ main {
   transform: translateY(-8%);
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, a {
   color: rgb(202, 197, 186);
+}
+
+/**Uso para paginas contacto**/
+.JCSpaceBetween {
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */

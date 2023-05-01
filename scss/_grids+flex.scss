@@ -1,1 +1,19 @@
 /**Uso para paginas contacto**/
+.JCSpaceBetween{justify-content: space-between;}
+
+.header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+
+}
+ul {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
