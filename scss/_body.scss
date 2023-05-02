@@ -8,6 +8,12 @@ main{
     margin-top: 160px;
   
 }
+.centrobot{
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+}
 .justify-content-center{
     justify-content: center;
 }
@@ -15,6 +21,13 @@ main{
     display: flex;
     justify-content: center;
 }
+.r-padding{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+
 
 /* iframe video documental youtube + AOS:
 <iframe data-aos="fade-up"
